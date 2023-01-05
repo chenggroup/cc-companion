@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cc-companion"
+version = "0.1.0"
+description = "A meta package that includes some common computational chemistry packages."
+authors = ["weihong.xu <xuweihong.cn@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cc_companion"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
